@@ -127,6 +127,7 @@ set relativenumber
 set numberwidth=4
 set cursorline
 set scrolloff=10
+set lazyredraw
 
 " Alt: ─
 set fillchars=fold:-,vert:│
