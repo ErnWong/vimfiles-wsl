@@ -6,3 +6,4 @@
 !/undo/README.markdown
 /bundle/
 !/bundle/Vundle.vim/
+.netrwhist

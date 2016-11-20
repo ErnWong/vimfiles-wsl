@@ -17,6 +17,7 @@ Plugin 'PProvost/vim-ps1'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
+Plugin 'othree/yajs.vim'
 
 " Handy:
 Plugin 'tpope/vim-surround'
@@ -138,14 +139,14 @@ set laststatus=2
 set noshowmode
 
 "colorscheme
-colorscheme my-papercolor
-set background=light
+colorscheme my-base16-paraiso
+set background=dark
 set t_Co=16
 let g:gruvbox_termcolors=16
 syntax on
 
 " Airline
-let g:airline_theme = 'sol'
+let g:airline_theme = 'base16'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = '│'
