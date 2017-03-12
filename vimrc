@@ -28,6 +28,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'qpkorr/vim-bufkill'
+Plugin 'francoiscabrol/ranger.vim'
 
 " Git:
 Plugin 'tpope/vim-fugitive'
