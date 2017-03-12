@@ -13,6 +13,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Languages:
+Plugin 'tpope/vim-liquid'
 Plugin 'PProvost/vim-ps1'
 Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'vim-pandoc/vim-pandoc'
