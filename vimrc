@@ -12,6 +12,10 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+" Intelligence:
+Plugin 'scrooloose/syntastic'
+Plugin 'editorconfig/editorconfig-vim'
+
 " Languages:
 Plugin 'tpope/vim-liquid'
 Plugin 'PProvost/vim-ps1'
@@ -19,6 +23,7 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'othree/yajs.vim'
+Plugin 'gcorne/vim-sass-lint'
 
 " Handy:
 Plugin 'tpope/vim-surround'
@@ -32,10 +37,6 @@ Plugin 'francoiscabrol/ranger.vim'
 
 " Git:
 Plugin 'tpope/vim-fugitive'
-
-" Intelligence:
-Plugin 'scrooloose/syntastic'
-Plugin 'editorconfig/editorconfig-vim'
 
 " Colorschemes:
 Plugin 'morhetz/gruvbox'
@@ -166,6 +167,15 @@ let g:airline_symbols.paste = 'Þ'
 let g:airline_symbols.spell = '$'
 let g:airline_symbols.notexists = '∄'
 let g:airline_symbols.whitespace = 'Ξ'
+
+
+"
+" Intelligence
+"
+
+
+let g:syntastic_sass_checkers=["sasslint"]
+let g:syntastic_scss_checkers=["sasslint"]
 
 
 "
