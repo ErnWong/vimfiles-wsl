@@ -176,6 +176,14 @@ let g:airline_symbols.whitespace = 'Ξ'
 
 let g:syntastic_sass_checkers=["sasslint"]
 let g:syntastic_scss_checkers=["sasslint"]
+" Inspired by sblask (github.com/sblask/dotfiles)
+fun! SetScssConfig()
+  let configFile = findfile('.scss-lint.yml', '.')
+  if configFile != ''
+    let b:syntastic_scss_scss_lint_args = '--config ' . configFile
+  endif
+endf
+autocmd FileType scss :call SetScssConfig()
 
 
 "
