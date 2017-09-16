@@ -142,7 +142,7 @@ set laststatus=2
 " and use the airline status instead
 set noshowmode
 
-"colorscheme
+" Colorscheme
 colorscheme gruvbox
 set background=dark
 set termguicolors
@@ -198,8 +198,6 @@ set shiftwidth=2
 set expandtab
 set breakindent
 set noautochdir
-
-
 
 " Keep hidden buffers
 set hidden
