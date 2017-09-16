@@ -143,14 +143,13 @@ set laststatus=2
 set noshowmode
 
 "colorscheme
-colorscheme my-base16-paraiso
+colorscheme gruvbox
 set background=dark
-set t_Co=16
-let g:gruvbox_termcolors=16
+set termguicolors
+set t_8f=[38;2;%lu;%lu;%lum " Needed in tmux
 syntax on
 
 " Airline
-let g:airline_theme = 'base16'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = '│'
