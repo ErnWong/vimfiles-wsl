@@ -54,20 +54,21 @@ filetype plugin indent on
 
 
 let mapleader = '\\'
-imap jk <esc>
-map <space> :
+inoremap jk <esc>
+vnoremap jk <esc>
+nnoremap <space> :
 
 " Close current buffer
-nmap <C-c> :BD<cr>
+nnoremap <C-c> :BD<cr>
 
 " Window navigation
 " - inspired from nicknisi
 " - <C-hjkl> moves only, via tmux navigator
 " - <C-w> hjkl creates new split
-nmap <C-w>h :wincmd v<cr>
-nmap <C-w>j :wincmd s<cr>:wincmd k<cr>
-nmap <C-w>k :wincmd s<cr>
-nmap <C-w>l :wincmd v<cr>:wincmd l<cr>
+nnoremap <C-w>h :wincmd v<cr>
+nnoremap <C-w>j :wincmd s<cr>:wincmd k<cr>
+nnoremap <C-w>k :wincmd s<cr>
+nnoremap <C-w>l :wincmd v<cr>:wincmd l<cr>
 
 
 "
