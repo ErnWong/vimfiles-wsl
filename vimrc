@@ -214,7 +214,9 @@ set background=dark
 set termguicolors
 set t_8f=[38;2;%lu;%lu;%lum " Needed in tmux
 set t_8b=[48;2;%lu;%lu;%lum " Needed in tmux
-syntax on
+set t_md= " Don't ask me why,
+set t_mr= " but time has passed us by...
+syntax on " do do do do... do do do do... do do...
 
 " Airline
 let g:airline#extensions#tabline#enabled = 1
