@@ -208,7 +208,7 @@ set laststatus=2
 set noshowmode
 
 " Colorscheme
-colorscheme gruvbox
+colorscheme my-gruvbox
 set background=dark
 set termguicolors
 set t_8f=[38;2;%lu;%lu;%lum " Needed in tmux
@@ -218,6 +218,7 @@ set t_mr= " but time has passed us by...
 syntax on " do do do do... do do do do... do do...
 
 " Airline
+let g:airline_theme='gruvbox'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ''
 let g:airline#extensions#tabline#left_alt_sep = '│'
