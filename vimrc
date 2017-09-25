@@ -56,6 +56,7 @@ filetype plugin indent on
 let mapleader = '\\'
 inoremap jk <esc>
 nnoremap <space> :
+vnoremap <space> :
 
 " Close current buffer
 nnoremap <C-c> :BD<cr>
