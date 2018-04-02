@@ -1,4 +1,6 @@
 set nocompatible
+set encoding=utf-8
+scriptencoding utf-8
 
 
 "
@@ -263,7 +265,6 @@ autocmd FileType scss :call SetScssConfig()
 "
 
 
-set encoding=utf-8
 set backspace=indent,eol,start
 set tabstop=2
 set shiftwidth=2
