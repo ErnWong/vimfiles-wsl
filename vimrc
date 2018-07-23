@@ -17,6 +17,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Intelligence:
 Plugin 'scrooloose/syntastic'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'w0rp/ale'
 
 " Languages:
 Plugin 'tpope/vim-liquid'
@@ -26,6 +27,7 @@ Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
 Plugin 'othree/yajs.vim'
 Plugin 'gcorne/vim-sass-lint'
+Plugin 'rust-lang/rust.vim'
 
 " Handy:
 Plugin 'tpope/vim-surround'
@@ -262,6 +264,7 @@ fun! SetScssConfig()
 endf
 autocmd FileType scss :call SetScssConfig()
 
+let g:ale_completion_enabled = 1
 
 "
 " Editor Settings
