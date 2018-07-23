@@ -193,6 +193,7 @@ set directory=~/.vim/swap//
 
 
 set colorcolumn=100
+set hlsearch
 set number
 set relativenumber
 set numberwidth=4
