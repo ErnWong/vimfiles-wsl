@@ -192,7 +192,7 @@ set directory=~/.vim/swap//
 "
 
 
-set colorcolumn=80
+set colorcolumn=100
 set number
 set relativenumber
 set numberwidth=4
