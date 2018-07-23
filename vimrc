@@ -199,6 +199,8 @@ set relativenumber
 set numberwidth=4
 set cursorline
 set scrolloff=10
+set listchars=tab:→\ ,trail:⋅
+set list
 set lazyredraw
 
 " Alt: ─
