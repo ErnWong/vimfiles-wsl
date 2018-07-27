@@ -18,6 +18,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'w0rp/ale'
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'roxma/nvim-yarp'
+Plugin 'roxma/vim-hug-neovim-rpc'
 
 " Languages:
 Plugin 'tpope/vim-liquid'
@@ -265,6 +268,7 @@ endf
 autocmd FileType scss :call SetScssConfig()
 
 let g:ale_completion_enabled = 1
+let g:deoplete#enable_at_startup = 1
 
 "
 " Editor Settings
