@@ -219,14 +219,12 @@ set laststatus=2
 set noshowmode
 
 " Colorscheme
-colorscheme my-gruvbox
+colorscheme gruvbox
 set background=dark
 set termguicolors
 set t_8f=[38;2;%lu;%lu;%lum " Needed in tmux
 set t_8b=[48;2;%lu;%lu;%lum " Needed in tmux
-set t_md= " Don't ask me why,
-set t_mr= " but time has passed us by...
-syntax on " do do do do... do do do do... do do...
+syntax on
 
 " Colors gets messed up in large files otherwise...
 autocmd Syntax * syntax sync fromstart
