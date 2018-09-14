@@ -219,11 +219,15 @@ set laststatus=2
 set noshowmode
 
 " Colorscheme
+let g:gruvbox_italic = 1
+let g:gruvbox_bold = 1
 colorscheme gruvbox
 set background=dark
 set termguicolors
 set t_8f=[38;2;%lu;%lu;%lum " Needed in tmux
 set t_8b=[48;2;%lu;%lu;%lum " Needed in tmux
+set t_ZH=[3m " Italics
+set t_ZR=[23m " End italics
 syntax on
 
 " Colors gets messed up in large files otherwise...
