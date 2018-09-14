@@ -227,7 +227,7 @@ set t_8b=[48;2;%lu;%lu;%lum " Needed in tmux
 syntax on
 
 " Colors gets messed up in large files otherwise...
-autocmd Syntax * syntax sync fromstart
+autocmd BufEnter * syntax sync fromstart
 
 " Airline
 let g:airline_theme='gruvbox'
