@@ -282,3 +282,6 @@ set noautochdir
 
 " Keep hidden buffers
 set hidden
+
+" Faster updates, e.g. for git gutter
+set updatetime=100
