@@ -42,6 +42,7 @@ Plug 'francoiscabrol/ranger.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'APZelos/blamer.nvim'
+Plug 'airblade/vim-gitgutter'
 
 " Colorschemes:
 Plug 'morhetz/gruvbox'
