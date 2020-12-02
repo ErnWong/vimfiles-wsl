@@ -10,6 +10,8 @@ scriptencoding utf-8
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'tpope/vim-sensible'
+
 " Intelligence:
 Plug 'scrooloose/syntastic'
 Plug 'editorconfig/editorconfig-vim'
@@ -272,7 +274,6 @@ let g:deoplete#enable_at_startup = 1
 "
 
 
-set backspace=indent,eol,start
 set tabstop=2
 set shiftwidth=2
 set expandtab
