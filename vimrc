@@ -40,6 +40,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'qpkorr/vim-bufkill'
 Plug 'francoiscabrol/ranger.vim'
+Plug 'majutsushi/tagbar'
 
 " Git:
 Plug 'tpope/vim-fugitive'
@@ -64,6 +65,9 @@ vnoremap <space> :
 
 " Close current buffer
 nnoremap <C-c> :BD<cr>
+
+" Tagbar
+nmap <f8> :TagbarToggle<cr>
 
 " Window navigation
 " - inspired from nicknisi
