@@ -4,56 +4,50 @@ scriptencoding utf-8
 
 
 "
-" Vundle & Plugins
+" Plugins
 "
 
 
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin('~/.vim/plugged')
 
 " Intelligence:
-Plugin 'scrooloose/syntastic'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'w0rp/ale'
-Plugin 'Shougo/deoplete.nvim'
-Plugin 'roxma/nvim-yarp'
-Plugin 'roxma/vim-hug-neovim-rpc'
+Plug 'scrooloose/syntastic'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'w0rp/ale'
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
 
 " Languages:
-Plugin 'tpope/vim-liquid'
-Plugin 'PProvost/vim-ps1'
-Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'vim-pandoc/vim-pandoc'
-Plugin 'vim-pandoc/vim-pandoc-syntax'
-Plugin 'iamcco/markdown-preview.nvim'
-Plugin 'othree/yajs.vim'
-Plugin 'gcorne/vim-sass-lint'
-Plugin 'rust-lang/rust.vim'
+Plug 'tpope/vim-liquid'
+Plug 'PProvost/vim-ps1'
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'iamcco/markdown-preview.nvim'
+Plug 'othree/yajs.vim'
+Plug 'gcorne/vim-sass-lint'
+Plug 'rust-lang/rust.vim'
 
 " Handy:
-Plugin 'tpope/vim-surround'
+Plug 'tpope/vim-surround'
 
 " UI:
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'qpkorr/vim-bufkill'
-Plugin 'francoiscabrol/ranger.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'qpkorr/vim-bufkill'
+Plug 'francoiscabrol/ranger.vim'
 
 " Git:
-Plugin 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 
 " Colorschemes:
-Plugin 'morhetz/gruvbox'
-Plugin 'chriskempson/base16-vim'
-Plugin 'NLKNguyen/papercolor-theme'
+Plug 'morhetz/gruvbox'
+Plug 'chriskempson/base16-vim'
+Plug 'NLKNguyen/papercolor-theme'
 
-call vundle#end()
-
-filetype plugin indent on
+call plug#end()
 
 
 "
