@@ -31,6 +31,8 @@ Plug 'rust-lang/rust.vim'
 " Handy:
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " UI:
 Plug 'vim-airline/vim-airline'
