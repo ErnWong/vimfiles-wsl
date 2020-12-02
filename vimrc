@@ -40,6 +40,7 @@ Plug 'francoiscabrol/ranger.vim'
 
 " Git:
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb'
 
 " Colorschemes:
 Plug 'morhetz/gruvbox'
