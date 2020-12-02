@@ -41,6 +41,7 @@ Plug 'francoiscabrol/ranger.vim'
 " Git:
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
+Plug 'APZelos/blamer.nvim'
 
 " Colorschemes:
 Plug 'morhetz/gruvbox'
@@ -244,6 +245,9 @@ let g:airline_symbols.paste = 'Þ'
 let g:airline_symbols.spell = '$'
 let g:airline_symbols.notexists = '∄'
 let g:airline_symbols.whitespace = 'Ξ'
+
+" Blamer
+let g:blamer_enabled = 1
 
 
 "
