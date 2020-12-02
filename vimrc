@@ -30,6 +30,7 @@ Plug 'rust-lang/rust.vim'
 
 " Handy:
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 
 " UI:
 Plug 'vim-airline/vim-airline'
