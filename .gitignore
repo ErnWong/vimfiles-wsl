@@ -4,6 +4,5 @@
 !/swap/README.markdown
 /undo/*
 !/undo/README.markdown
-/bundle/
-!/bundle/Vundle.vim/
+/plugged/
 .netrwhist
