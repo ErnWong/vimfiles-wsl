@@ -43,8 +43,6 @@ Plug 'tpope/vim-fugitive'
 
 " Colorschemes:
 Plug 'morhetz/gruvbox'
-Plug 'chriskempson/base16-vim'
-Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
 
