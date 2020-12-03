@@ -28,6 +28,7 @@ Plug 'othree/yajs.vim'
 Plug 'gcorne/vim-sass-lint'
 Plug 'rust-lang/rust.vim'
 Plug 'HerringtonDarkholme/yats.vim'
+Plug 'vmchale/ats-vim'
 
 " Handy:
 Plug 'tpope/vim-surround'
