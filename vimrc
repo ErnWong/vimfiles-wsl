@@ -27,6 +27,7 @@ Plug 'iamcco/markdown-preview.nvim'
 Plug 'othree/yajs.vim'
 Plug 'gcorne/vim-sass-lint'
 Plug 'rust-lang/rust.vim'
+Plug 'HerringtonDarkholme/yats.vim'
 
 " Handy:
 Plug 'tpope/vim-surround'
