@@ -287,6 +287,7 @@ autocmd FileType scss :call SetScssConfig()
 
 let g:ale_completion_enabled = 1
 let g:deoplete#enable_at_startup = 1
+let g:rustfmt_autosave = 1
 
 " Coc extensions to install
 let g:coc_global_extensions = [
