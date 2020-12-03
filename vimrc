@@ -288,6 +288,30 @@ autocmd FileType scss :call SetScssConfig()
 let g:ale_completion_enabled = 1
 let g:deoplete#enable_at_startup = 1
 
+" Coc extensions to install
+let g:coc_global_extensions = [
+      \ 'coc-marketplace',
+      \ 'coc-pairs',
+      \ 'coc-xml',
+      \ 'coc-json',
+      \ 'coc-yaml',
+      \ 'coc-toml',
+      \ 'coc-gitignore',
+      \ 'coc-rust-analyzer',
+      \ 'coc-java',
+      \ 'coc-tsserver',
+      \ 'coc-eslint',
+      \ 'coc-vimlsp',
+      \ 'coc-pyright',
+      \ 'coc-powershell',
+      \ 'coc-sh',
+      \ 'coc-sql',
+      \ 'coc-docker',
+      \ 'coc-vimtex',
+      \ 'coc-css',
+      \ 'coc-prettier',
+      \]
+
 " Coc useful settings
 
 " (From coc.nvim README)
