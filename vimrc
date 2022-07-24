@@ -295,7 +295,6 @@ let g:rustfmt_autosave = 1
 " Coc extensions to install
 let g:coc_global_extensions = [
       \ 'coc-marketplace',
-      \ 'coc-pairs',
       \ 'coc-xml',
       \ 'coc-json',
       \ 'coc-yaml',
